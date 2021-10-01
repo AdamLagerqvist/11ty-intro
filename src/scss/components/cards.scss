@@ -1,0 +1,51 @@
+.cards{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    width: 13rem;
+    max-width: 13rem;
+    height: 18rem;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgb(161, 214, 216);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card > img{
+    width: 12.8rem;
+    height: 40%;
+    border-radius: 10px;
+    border-width: 0.2rem;
+    border-color: rgb(43, 43, 43);
+    border-style: solid;
+}
+
+.card-right{
+ display: flex;
+ justify-content: flex-end;
+ margin-top: auto;
+}
+
+.card > h1{
+    font-size: 1.5rem;
+    line-height: 1;
+    color: rgb(43, 43, 43);
+    margin-top: 0.5rem;
+}
+
+.card > p{
+    color: rgb(68, 68, 68);
+}
+
+.card-right > button{
+    border-style: solid;
+    border-color: rgb(51, 121, 111);
+    padding: 0.4rem;
+    border-radius: 6px;
+    background-color: rgb(88, 167, 156);
+}
