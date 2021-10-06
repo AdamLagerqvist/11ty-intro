@@ -2,4 +2,4 @@
 layout: base.njk
 ---
 
-{{dog.fact | dump}}
+{{dog[0].fact | safe}}

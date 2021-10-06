@@ -10,7 +10,7 @@
         },
         {
             "title": "Dog facts",
-            "url": "dogFacts"
+            "url": "/dogFacts"
         }
     ]
 }
